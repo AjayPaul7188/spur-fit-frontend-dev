@@ -1,9 +1,13 @@
-.main-page {
-    width: 90vw;
-    height: 100vh;
-    position: absolute;
-    z-index: -1;
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+
+.main-container {
     width: 80vw;
+}
+
+.first-page {
+    display: flex;
   }
   
   .section-1 {
@@ -21,7 +25,7 @@
     width: 100px;
     transform: rotate(-75deg);
     position: relative;
-    bottom: 20px;
+    bottom: 60px;
     z-index: -1;
     margin-left: 50px;
   }
@@ -74,4 +78,131 @@
   .img5 {
     height: 40px;
   }
+
+  .part-2 {
+    display: flex;
+    align-items: center;  
+  }
+
+  .head {
+    margin-right: 10px;
+    width: 30%;
+    font-family: roboto;
+    font-size: 40px;
+  }
+
+  .para {
+    margin-right: 10px;
+    width: 30%;
+    font-family: roboto;
+    font-size: 20px;
+  }
+
+  .head-part {
+    display: flex;
+    align-items: center;
+  }
+
+  .head1 {
+    font-family: roboto;
+    font-size: 50px;
+    padding: 20px;
+  }
+
+  .emoji-1 {
+    height: 50px;
+  }
+
+  .slider-container {
+    padding: 40px;
+  }
+
+  .box {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .box-color-1 {
+    background-color: aquamarine;
+  }
+
+  .box-color-2 {
+    background-color: hotpink;
+  }
   
+  .box-color-3 {
+    background-color: rgb(162, 147, 230);
+  }
+
+  .box-color-4 {
+    background-color: rgb(226, 247, 133);
+  }
+
+  .box-color-5 {
+    background-color: rgba(234, 235, 236, 0.637);
+  }
+
+  .emoji-img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .box-head {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .box-para {
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+
+  .box-angle {
+    transform: rotate(-5deg);
+  }
+
+  .img-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+  }
+
+  .flow-img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+  }
+
+  .img6 {
+    height: 30px;
+    width: 60px;
+    margin-right: 10vw;
+    transform: rotate(20deg);
+  }
+
+  .anim-sec {
+    display: flex;
+    width: 100%;
+  }
+
+  .toys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+
+  .smile-img {
+    height: 100px;
+  }
+
+  .text-sec {
+    width: 50%;
+  }
