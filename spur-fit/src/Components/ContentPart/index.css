@@ -1,8 +1,10 @@
 @import 'slick-carousel/slick/slick.css';
 @import 'slick-carousel/slick/slick-theme.css';
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt|Shadows+Into+Light|Cedarville+Cursive');
 
-.main-container {
+
+.content-cont {
     width: 80vw;
 }
 
@@ -205,4 +207,205 @@
 
   .text-sec {
     width: 50%;
+  }
+
+  .part-4 {
+    margin-bottom: 10vh;
+  }
+
+  .head-sec-4 {
+    display: flex;
+  }
+
+  .chrono-head {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .chrono-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    overflow-y: scroll;
+  }
+
+  .part-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hr-line {
+    border-style: dashed;
+    width: 30px;
+    flex-grow: 1;
+    color: #ffa64d;
+    opacity: 0.6;
+  }
+
+  .chrono-cont {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+
+  .img-chr {
+    height: 18vh;
+  }
+  
+  .part-6 {
+    margin-bottom: 10vh;
+  }
+
+  .part-7 {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sign {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .start-btn {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 15px;
+  }
+
+  .sm-para {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 10px;
+    opacity: 0.7;
+    text-align: center;
+    font-weight: 600;
+  }
+
+
+  .part-8 {
+    display: flex;
+    height: 75vh;
+    width: 100%;
+  }
+
+  .section-a {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .happy-img {
+    height: 50px;
+    width: 50px;
+    padding-left: 20px;
+  }
+
+  .head3 {
+    font-family: roboto;
+    font-size: 22px;
+    padding-left: 20px;
+    font-weight: 600;
+  }
+
+  .section-b {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .app-name {
+    font-family: roboto;
+    font-size: 45px;
+    color: #7070db;
+    font-weight: bold;
+    align-self: flex-end;
+  }
+
+  .side-scroll {
+    height: 50vh;
+    overflow-y: scroll;
+    scrollbar-color: #476ad1 #edeeec;
+    scrollbar-width: thin;
+    width: 50%;
+    align-self: flex-end;
+  }
+
+  .side-cont {
+    margin-bottom: 15vh;
+  }
+
+  .side-head {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .side-para {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .part-9 {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+  }
+
+  .rows {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20vh;
+    width: 100%;
+  }
+
+  .items {
+    margin: 20px;
+    margin-top: 0px;
+    padding: 15px;
+  }
+
+  .items:hover {
+    background-color: #c1db70;
+    border-radius: 15px;
+  }
+
+  .head4 {
+    font-family: roboto;
+    font-size: 22px;
+  }
+
+  .ul-list {
+    font-family: roboto;
+    font-size: 18px;
+  }
+
+  .details-btn {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: auto;
+    display: none;
+    cursor: pointer;
+    
+  }
+
+  .items:hover .details-btn {
+    display: block;
   }

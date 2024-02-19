@@ -1,3 +1,5 @@
+import logo from '../images/logo.png';
+
 import "./index.css";
 
 const Header = () => (
@@ -5,7 +7,7 @@ const Header = () => (
     <div className="nav-content">
       <img
         className="logo"
-        src="https://tse2.mm.bing.net/th?id=OIP.Zu5IOKkCYQepVFv4G_03qgHaGL&pid=Api&P=0&h=180"
+        src={logo}
         alt="logo"
       />
 
