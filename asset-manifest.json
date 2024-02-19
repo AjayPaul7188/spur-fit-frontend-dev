@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/spur-fit-frontend-dev/static/css/main.c5caef05.css",
+    "main.js": "/spur-fit-frontend-dev/static/js/main.57c3a25f.js",
+    "static/js/453.9561e0d2.chunk.js": "/spur-fit-frontend-dev/static/js/453.9561e0d2.chunk.js",
+    "static/media/gif.png": "/spur-fit-frontend-dev/static/media/gif.7cf05eec9c7ff5be722e.png",
+    "static/media/chro.png": "/spur-fit-frontend-dev/static/media/chro.27eef8c0097b5bc808eb.png",
+    "static/media/img4.png": "/spur-fit-frontend-dev/static/media/img4.58fff6a6967c10dd410b.png",
+    "static/media/smile.png": "/spur-fit-frontend-dev/static/media/smile.eea692d1564c61edb1fb.png",
+    "static/media/slick.svg": "/spur-fit-frontend-dev/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/spur-fit-frontend-dev/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/spur-fit-frontend-dev/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/spur-fit-frontend-dev/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/spur-fit-frontend-dev/index.html",
+    "main.c5caef05.css.map": "/spur-fit-frontend-dev/static/css/main.c5caef05.css.map",
+    "main.57c3a25f.js.map": "/spur-fit-frontend-dev/static/js/main.57c3a25f.js.map",
+    "453.9561e0d2.chunk.js.map": "/spur-fit-frontend-dev/static/js/453.9561e0d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5caef05.css",
+    "static/js/main.57c3a25f.js"
+  ]
+}
